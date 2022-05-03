@@ -1,4 +1,4 @@
-# dcat-neditor
+# Dcat-NEditor
 
 [![Total Downloads](https://poser.pugx.org/laradocs/dcat-neditor/d/total.svg)](https://packagist.org/packages/laradocs/dcat-neditor)
 [![Latest Stable Version](https://poser.pugx.org/laradocs/dcat-neditor/v/stable.svg)](https://packagist.org/packages/laradocs/dcat-neditor)

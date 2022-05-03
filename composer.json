@@ -1,0 +1,44 @@
+{
+    "name": "laradocs/dcat-neditor",
+    "description": "NEditor extension for Dcat-Admin",
+    "type": "library",
+    "keywords": ["dcat-neditor", "dcat-admin", "neditor", "135", "135 editor", "135编辑器", "ueditor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tall Libra",
+            "email": "75692074@qq.com",
+            "homepage": "https://github.com/laradocs",
+            "role": "Developer"
+        },
+        {
+            "name": "牟勇",
+            "email": "my24251325@gmail.com",
+            "homepage": "https://github.com/mouyong",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/laradocs/dcat-neditor",
+        "homepage": "https://github.com/laradocs/dcat-neditor",
+        "issues": "https://github.com/laradocs/dcat-neditor/issues"
+    },
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laradocs\\DcatNeditor\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Laradocs\\DcatNeditor\\DcatNeditorServiceProvider",
+        "laravel": {
+            "providers": [
+                "Laradocs\\DcatNeditor\\DcatNeditorServiceProvider"
+            ]
+        }
+    }
+}

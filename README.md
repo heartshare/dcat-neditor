@@ -27,8 +27,8 @@ composer require laradocs/dcat-neditor
 $form->neditor('article');
 ```
 
-![dcat-neditor](https://cdn.acewangpai.com/github%2Fdcat-neditor.png)
+![Dact-NEditor](https://cdn.acewangpai.com/github%2Fdcat-neditor.png)
 
 ## 交流
 
-[dcat-neditor 交流群](https://qm.qq.com/cgi-bin/qm/qr?k=wR6sAwPtQ1wm1uTuuVjnwjhXIt4upg6J&jump_from=webapi) ID: 421744046
+[Dact-NEditor 交流群](https://qm.qq.com/cgi-bin/qm/qr?k=wR6sAwPtQ1wm1uTuuVjnwjhXIt4upg6J&jump_from=webapi) ID: 421744046

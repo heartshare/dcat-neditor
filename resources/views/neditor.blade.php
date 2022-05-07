@@ -2,7 +2,7 @@
     <label class="{{$viewClass['label']}} control-label">{{$label}}</label>
     <div class="{{$viewClass['field']}}">
         @include('admin::form.error')
-        <script id="{{ $editor_id }}" name="{{ $name}}" placeholder="{{ $placeholder }}" {!! $attributes !!} >{!! $value !!}</script>
+        <textarea id="{{ $editor_id }}" name="{{ $name}}" placeholder="{{ $placeholder }}" {!! $attributes !!} >{!! $value !!}</textarea>
         @include('admin::form.help-block')
     </div>
 </div>
